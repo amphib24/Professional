@@ -1,13 +1,4 @@
 {
-  "name": "freelancer",
-  "title": "Freelancer",
-  "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/freelancer",
-  "author": "Start Bootstrap",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
-  },
   "devDependencies": {
     "express": "^4.14.0",
     "express-request-proxy": "^2.0.0",
@@ -22,8 +13,32 @@
     "gulp-uglify": "^1.5.4",
     "jquery": "^1.11.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
+
+    "name": "portfolio2",
+    "version": "1.0.0",
+    "description": "word",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/amphib24/Professional.git"
+    },
+    "keywords": [
+      "nutty",
+      "butty",
+      "butter",
+      "puddy"
+    ],
+    "author": "JEFE",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/amphib24/Professional/issues"
+    },
+    "homepage": "https://github.com/amphib24/Professional#readme",
+    "dependencies": {
+      "express": "^4.14.0"
+    }
   }
-}
