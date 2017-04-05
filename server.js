@@ -1,9 +1,9 @@
 'use strict'
+const pg = require('pg');
 const express = require('express');
+const PORT = process.env.PORT || 5000;
 const app = express();
-
-const PORT = process.env.PORT || 3000;
-
+const conString = process.env.DATABASE_URL || 'postgres://localhost:5432';
 // DONE: Include all of the static resources as an argument to app.use()
 app.use(express.static('./public'));
 

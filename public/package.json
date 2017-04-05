@@ -1,5 +1,9 @@
 {
-  "devDependencies": {
+  "name": "Professional",
+  "version": "1.0.0",
+  "description": "word",
+  "main": "server.js",
+  "dependencies":{
     "express": "^4.14.0",
     "express-request-proxy": "^2.0.0",
     "bootstrap": "^3.3.7",
@@ -14,10 +18,8 @@
     "jquery": "^1.11.3"
   },
 
-    "name": "portfolio2",
-    "version": "1.0.0",
-    "description": "word",
-    "main": "server.js",
+
+    "devDependencies": {},
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "node server.js"
